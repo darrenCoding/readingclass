@@ -23,12 +23,12 @@ How to use
     3.Initialize Slider
 
         Drag({
-        	method : "move",//裁选方式, move(拖动裁选) or mouse(自动裁选)
-		opacity : 0.5,//裁选框的透明度
-		clip_width : 100,//裁选框的宽度
-		clip_height : 100,//裁选框的高度
-		small_width : 310,//小图的宽度
-		small_height : 310,//小图的高度
-		big_width : 800,//大图的宽度
-		big_height : 800,//大图的高度
+                method : "move",//裁选方式, move(拖动裁选) or mouse(自动裁选)
+	        opacity : 0.5,//裁选框的透明度
+	        clip_width : 100,//裁选框的宽度
+	        clip_height : 100,//裁选框的高度
+	        small_width : 310,//小图的宽度
+   	        small_height : 310,//小图的高度
+	        big_width : 800,//大图的宽度
+	        big_height : 800,//大图的高度
         });
