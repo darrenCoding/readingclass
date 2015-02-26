@@ -5,12 +5,12 @@ How to use
 
      1. Include Slider on your site.
 
-     <link rel="stylesheet" type="text/css" href="css/style.css">
-     <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/main.js"></script>
 
      2. Structure of HTML.
 
-     <div id="wrap">
+        <div id="wrap">
 	    <img class="img1" alt="" src="img/small.jpg" width="310" height="310" />
             <img class="img2" alt="" src="img/small.jpg" width="310" height="310"/>
 	    <div id="pop" class="pop"></div>
@@ -18,12 +18,12 @@ How to use
 	    <div id="preview">
 		    <img class="img3" alt="" src="img/big.jpg" width="800" height="800"/>
 	    </div>
-     </div>
+        </div>
 
     3.Initialize Slider
 
         Drag({
-                method : "move",//裁选方式, move(拖动裁选) or mouse(自动裁选)
+           method : "move",//裁选方式, move(拖动裁选) or mouse(自动裁选)
 	        opacity : 0.5,//裁选框的透明度
 	        clip_width : 100,//裁选框的宽度
 	        clip_height : 100,//裁选框的高度
