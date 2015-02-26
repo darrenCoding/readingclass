@@ -180,13 +180,3 @@
 
     window.Drag = Drag;
 })(window)
-Drag({
-	opacity : 0.5,
-    clip_width : 100,
-	clip_height : 100,
-	small_width : 310,
-	small_height : 310,
-	big_width : 800,
-	big_height : 800,
-	method : "move"
-});
