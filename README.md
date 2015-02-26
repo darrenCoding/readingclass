@@ -11,13 +11,13 @@ How to use
      2. Structure of HTML.
 
         <div id="wrap">
-	    <img class="img1" alt="" src="img/small.jpg" width="310" height="310" />
-            <img class="img2" alt="" src="img/small.jpg" width="310" height="310"/>
-	    <div id="pop" class="pop"></div>
+	    	<img class="img1" alt="" src="img/small.jpg" width="310" height="310" />
+            	<img class="img2" alt="" src="img/small.jpg" width="310" height="310"/>
+	    	<div id="pop" class="pop"></div>
 
-	    <div id="preview">
-		    <img class="img3" alt="" src="img/big.jpg" width="800" height="800"/>
-	    </div>
+	    	<div id="preview">
+		    	<img class="img3" alt="" src="img/big.jpg" width="800" height="800"/>
+	    	</div>
         </div>
 
     3.Initialize Slider
