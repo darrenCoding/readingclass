@@ -23,7 +23,7 @@ How to use
     3.Initialize Slider
 
         Drag({
-           method : "move",//裁选方式, move(拖动裁选) or mouse(自动裁选)
+             method : "move",//裁选方式, move(拖动裁选) or mouse(自动裁选)
 	        opacity : 0.5,//裁选框的透明度
 	        clip_width : 100,//裁选框的宽度
 	        clip_height : 100,//裁选框的高度
