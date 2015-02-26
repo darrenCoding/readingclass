@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>demo</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="wrap">
+			<img class="img1" alt="" src="img/small.jpg" width="310" height="310" />
+			<img class="img2" alt="" src="img/small.jpg" width="310" height="310"/>
+			<div id="pop" class="pop"></div>
+
+			<div id="preview">
+			    <img class="img3" alt="" src="img/big.jpg" width="800" height="800"/>
+		    </div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+        Drag({
+			opacity : 0.5,
+		    clip_width : 100,
+			clip_height : 100,
+			small_width : 310,
+			small_height : 310,
+			big_width : 800,
+			big_height : 800,
+			method : "move"
+		});
+	</script>
+</html>
